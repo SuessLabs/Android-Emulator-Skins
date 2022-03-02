@@ -1,0 +1,57 @@
+parts {
+    portrait {
+        background {
+            image   device_Port-PhantomSilver.png
+        }
+		foreground {
+			mask	fore_port.png
+		}
+		buttons {
+			volume-up {
+				image 	rocker_up.png
+				x		2055
+				y		788
+			}
+			volume-down {
+				image 	rocker_down.png
+				x		2055
+				y		928
+			}
+			power {
+				image 	rocker_power.png
+				x		2052
+				y		1140
+			}
+		}		
+    }
+
+    device {
+        display {
+            width   1768
+            height  2208
+            x       0
+            y       0
+        }
+    }
+}
+
+layouts {
+    portrait {
+        width     2217
+        height    2640
+        color     0x000000
+        event     EV_SW:0:1
+        
+        part1 {
+            name    portrait
+            x       0
+            y       0
+        }
+
+        part2 {
+            name    device
+            x       224
+            y       216
+        }
+    }
+}

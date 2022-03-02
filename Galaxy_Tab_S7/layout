@@ -1,0 +1,62 @@
+parts {
+    portrait {
+        background {
+            image   device_Port-MysticBlack.png
+        }
+		foreground {
+			mask	fore_port.png
+		}
+		buttons {
+			volume-up {
+				image 	rocker_up.png
+				x		1934
+				y		892
+			}
+			volume-down {
+				image 	rocker_down.png
+				x		1934
+				y		1014 
+			}
+			power {
+				image 	rocker_power.png
+				x		1934
+				y		544
+			}
+		}		
+    }
+
+    device {
+        display {
+            width   1600
+            height  2650
+            x       0
+            y       0
+        }
+    }
+}
+
+layouts {
+    portrait {
+        width     2099
+        height    3127
+        color     0x000000
+        event     EV_SW:0:1
+        
+        part1 {
+            name    portrait
+            x       0
+            y       0
+        }
+
+        part2 {
+            name    device
+            x       249
+            y       238
+        }
+    }
+}
+
+network {
+    speed  full
+    delay  none
+}
