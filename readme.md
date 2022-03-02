@@ -14,6 +14,8 @@ If you're like me and you like slim and trim emulators, continue forward!
 
 ## Available Skins
 
+### Progress
+
 The converstion process is underway...
 
 | Device            | Status |
@@ -24,9 +26,26 @@ The converstion process is underway...
 | Galaxy Z Flip 3   | TBD
 | Galaxy Tab S7 (Plus) | TBD
 
+### Device Specs
+
+| Device          | Resolution  | DPI     | Display |
+|-----------------|-------------|---------|---------|
+| Note 10         | 1080 x 2280 | 401 ppi | 6.3"
+| Note 10+        | 1440 x 3040 | 498 ppi | 6.8"
+| Note 20         | 1080 x 2400 | 393 ppi | 6.7"
+| Note 20 Ultra   | 1440 x 3088 | 496 ppi | 6.9"
+| Galaxy Z Fold 3 | 1768 x 2208 | 374 ppi | 7.6"
+| Galaxy Z Flip 3 | 1080 x 2640 | 426 ppi | 6.7"
+| Galaxy Tab S7   | 1600 x 2560 | 274 ppi | 11.0"
+| Galaxy Tab S7+  | 175x x 2900 | 266 ppi | 12.4"
+
 ## Visual Studio Install Process
 
-(Coming Soon)
+In the future I may provide a utility, but until then manual copying will have to do.
+
+1. Clone/download the repo
+2. Copy desired skin to your Visual Studio's `SystemSkins` folder of the Android Device Manager.
+   1. I.E. `"C\repo\Galaxy_Note10"` --> `"C:\Program Files...\AndroidDeviceManager\SystemSkins\Galaxy_Note10"`
 
 ### Install Paths
 
