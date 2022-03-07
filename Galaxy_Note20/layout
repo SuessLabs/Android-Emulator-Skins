@@ -27,8 +27,8 @@ parts {
 
     device {
         display {
-            width   1161
-            height  2502
+            width   1080
+            height  2400
             x       0
             y       0
         }
